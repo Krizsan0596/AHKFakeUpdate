@@ -6,10 +6,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 Goto Payload
 
 Payload:
-Sleep, 1000
-Send #r
+Sleep, 1000 ; Initial delay
+Send #r ; Run prompt
 Sleep, 500
-Send, iexplore -k https://fakeupdate.net/win10ue/
+Send, iexplore -k https://fakeupdate.net/win10ue/ ; Opens website in fullscreen, Windows 10 version
+; Send, iexplore -k https://fakeupdate.net/win7/ ; Windows 7 version
+; Send, iexplore -k https://fakeupdate.net/apple/ ; MacOS version
 Sleep, 10
 Send {Enter}
-Sleep, 3000
+; Sleep, 3000
