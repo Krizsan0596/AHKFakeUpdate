@@ -11,7 +11,7 @@ Send #r ; Run prompt
 Sleep, 500
 Send, iexplore -k https://fakeupdate.net/win10ue/ ; Opens website in fullscreen, Windows 10 version
 ; Send, iexplore -k https://fakeupdate.net/win7/ ; Windows 7 version
-; Send, iexplore -k https://fakeupdate.net/apple/ ; MacOS version
+; Send, iexplore -k https://fakeupdate.net/apple/ ; MacOS version, kinda useless cause this is for windows but why not?
 Sleep, 10
 Send {Enter}
 ; Sleep, 3000
